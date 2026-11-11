@@ -6,7 +6,7 @@ st.set_page_config(page_title="House Price Prediction", page_icon="🏠")
 
 @st.cache_resource
 def load_model():
-    return joblib.load("house_price_model(1).pkl")
+    return joblib.load("house_price_model.pkl")
 
 model = load_model()
 
