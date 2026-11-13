@@ -266,7 +266,6 @@ with st.sidebar:
     )
 
     st.divider()
-    st.success("App is ready")
     st.caption("House Price Prediction")
 
 # =====================================
